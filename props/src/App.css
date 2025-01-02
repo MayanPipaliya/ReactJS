@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #082f4a;
+  --secondary-color: #670c27;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  --card-background: #fff;
+  --transition-speed: 0.3s;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
