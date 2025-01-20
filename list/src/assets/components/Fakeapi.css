@@ -1,0 +1,59 @@
+/* Fakeapi.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.product-item p:last-child {
+    font-weight: bold;
+    color: #333;
+}
