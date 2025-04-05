@@ -1,0 +1,315 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.button {
+    display: block;
+    border-radius: 7px;
+    border: none;
+    background: #201658;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 14px 56px -11px #201658;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: auto;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.button span:after {
+    content: 'new Blog';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+
+.button:hover span {
+    padding-right: 4.55em;
+}
+
+.button:hover span:after {
+    opacity: 4;
+    right: 0;
+}
+
+.topic {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button1 {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #201658;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 2.75em;
+    min-width: 0;
+    width: 100px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.button1:disabled {
+    pointer-events: none;
+}
+
+.button1:hover {
+    color: #fff;
+    background-color: #201658;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button1:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+/*Button visit*/
+.cssbuttons-io-button {
+    background: #201658;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #201658;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #201658;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #201658;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
+/* --------------------------------Login page----------------------------- */
+
+.box{
+    width: 20%;
+    height: 420px;
+    width: 400px;
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 65px -28px #201658;
+    background-color: rgba(197, 222, 224, 0.271);
+
+}
+.bg1{
+    background-image: url(https://assets-global.website-files.com/600698a317a14c282d07a177/65c3a5ac1e23e74cd4055d59_ceo-startup-gen-ai-p-1600.png);
+   height: 100vh;
+   background-attachment: fixed;
+}
+.bg{
+    background-image: url(https://assets-global.website-files.com/600698a317a14c282d07a177/65c3a5ac1e23e74cd4055d59_ceo-startup-gen-ai-p-1600.png);
+   height:fit-content;
+   background-attachment: fixed;
+}
+/* ------------------BLOG PAGE-------------------------------------- */
+.box1{
+    
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 65px -30px #201658;
+    background-color: rgba(208, 238, 240, 0.832);
+
+}
+.box_1{
+    
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 65px -30px #201658;
+    background-color: rgba(208, 238, 240, 0.832);
+
+}
+.mrg{
+    margin-top: 110px;
+    box-shadow: #3B3B3B 0px 0px 50px;
+
+}
+.mrg1{
+    margin-top: 250px;
+    box-shadow: #3B3B3B 0px 0px 80px;
+}
+.res-txt2{
+    font-size: 25px;
+}
+.jst-txt{
+    text-align: justify;
+    line-height: 30px;
+}
+.res-txt5{
+    font-size: 28px;
+}
+.res-txt6{
+    font-size: 18px;
+}
+.res-txt7{
+    font-size: 16px;
+}
+.res-txt8{
+    font-size: 23px;
+}
+.fn-color{
+    color: #c2c6c7c5;
+}
+.icon1{
+    color: rgba(88, 255, 249, 0.893);
+    font-size: 30px;
+}
+.bshadow{
+    box-shadow: white 0px 0px 50px -22px
+}
+
+
+@media (min-width: 1200px) {
+    
+}
+@media (min-width: 992px) {
+    
+}    
+@media (max-width: 768px) {
+    .res-txt3{
+        font-size: 26px;
+    }
+    .res-txt4{
+        font-size: 16px;
+    }
+    .res-txt5{
+        font-size: 23px;
+    }
+    .res-txt6{
+        font-size: 15px;
+    }
+   
+   
+}
+@media (max-width: 431px) {
+    .res-txt{
+            font-size: 19px;
+            font-weight: bold;        
+    }
+    .res-txt1{
+            font-size: 14px;        
+    }
+    .mrg1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .res-txt5{
+        font-size: 20px;
+    }
+    .res-txt6{
+        font-size: 12px;
+    }
+}
+@media(max-width:376px){
+        .box_1{
+            width: 90%;
+        }
+}
+@media (max-width: 320px) {
+    .lw{
+        width: 33%;
+    }
+    .res-txt2{
+        font-size: 18px;
+    }
+    .res-txt3{
+        font-size: 22px;
+    }
+    .res-txt4{
+        font-size: 13px;
+    }
+    .res-txt5{
+        font-size: 16px;
+    }
+    .res-txt7{
+        font-size: 14px;
+    }
+    .res-txt8{
+        font-size:18px;
+    }
+    .jst-txt{
+        line-height: 22px;
+    }
+    .mrg{
+        margin-top: 80px;
+    }
+    .button1{
+        width: 80px;
+        font-size: 15px
+    }
+    .box{
+        height: 380px;
+    }
+    .box_1{
+        width: 90%;
+    }
+}
